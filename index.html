@@ -3,17 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Типографика и переполнение</title>
-  <link rel="stylesheet" href="./styles/style.css">
+  <title>Практическая работа №13</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="page">
-    <article class="card">
-      <p class="card__category">Интерфейсы</p>
-      <h1 class="card__title">Как сделать длинный заголовок карточки предсказуемым</h1>
-      <p class="card__preview">В реальных проектах длина текста заранее неизвестна. Интерфейс должен сохранять структуру, даже когда контента становится больше, чем ожидалось в макете.</p>
-      <a class="card__link" href="#">Читать материал</a>
-    </article>
-  </main>
+
+  <article class="card">
+    <p class="card__category">Городская история</p>
+    <h2 class="card__title">Очень длинный заголовок карточки, который должен оставаться читаемым</h2>
+    
+    <p class="card__text card__text--clamped">
+      Этот абзац используется для настройки размера шрифта, межстрочного интервала и поведения текста внутри карточки. Мы также тестируем ограничение многострочного текста.
+    </p>
+    
+    <p class="card__preview">
+      Очень длинная строка предпросмотра, которая должна завершаться многоточием.
+    </p>
+
+    <a class="card__link" href="https://example.com">
+      https://example.com
+    </a>
+  </article>
+
 </body>
 </html>
