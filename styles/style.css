@@ -1,5 +1,5 @@
 .card {
-  width: 420px; /* Для проверки по шагу 6 меняйте на 320px или 520px */
+  width: 420px; 
   padding: 32px;
   border: 1px solid #d0d0d0;
   box-sizing: border-box;
@@ -28,8 +28,6 @@
   color: #333333;
   margin-bottom: 12px;
 }
-
-/* Дополнительное задание: line-clamp */
 .card__text--clamped {
   display: -webkit-box;
   -webkit-box-orient: vertical;
